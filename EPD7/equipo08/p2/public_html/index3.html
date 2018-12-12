@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>EPD07-P2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function removeNumbersFromString(str) {
+                return str.replace(/[0-9]/g,"");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>EPD07-P2</h1>
+        <script>
+            var input = prompt("Introduce a string with numbers in it", "");
+            var res = removeNumbersFromString(input);
+            document.write("Output: " + res + "<br />");
+            document.write("Source: https://css-tricks.com/snippets/javascript/strip-numbers-from-a-string/");
+        </script>
+    </body>
+</html>

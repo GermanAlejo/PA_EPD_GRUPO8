@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-oct-2018, 12:35:18
+    Author     : geral
+*/
+
+body{
+    background-color: rgb(154,154,204);
+}
+
+.ldi{
+    color: rgb(60,105,147);
+   
+}
+
+.divborder{
+     border:dotted;
+     padding:1px;
+}
+
+.ldi a{
+    color: rgb(60,105,147);
+    text-decoration: none;
+
+}
+
+.ldi td{
+    color:black;
+}
+
+.tab{
+    width:100%;
+    background-color: white;
+}
+td:first-of-type{
+    border-right:1px solid rgb(60,105,147);
+    
+}

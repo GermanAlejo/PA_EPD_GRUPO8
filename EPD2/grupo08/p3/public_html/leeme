@@ -1,0 +1,87 @@
+
+He dejado un comentario al lado de cada propiedad del codigo que he considerado importante o menos comun explicando su finalidad
+
+
+.main-content{ 		//contenido principal, con parrafos, imagenes, y la tabla
+    margin:10px;
+    width: 70%;
+    font-family: 'Roboto', sans-serif; //cambia la fuente del texto del articulo a una parecida a la de la web
+    padding: 10px;
+}
+
+.navigaton-box{	//caja que incluye la barra de navegacion a la derecha
+    position:fixed;//padding junto con la propiedad right mueve la caja de navegacion a la derecha y la hace fluida segun navegamos la pagina
+    right:0;
+    margin:10px;
+}
+
+.navigaton-box ul{
+    list-style-type: none; //elimina los puntos de las listas que vienen predefinidas
+    padding-left: 3px;
+    border-left: 4px blue solid; //añade un borde azul a la izquierda de la lista 
+}
+
+.navigaton-box ul li:first-of-type{			//dejamos claro que solo queremos aplicarlo al primer elemento de la tabla, en este caso la primera fila
+    color:grey;
+    font-weight: bold; 			//diferencia el primer elemento de la lista
+    
+}
+
+.navigaton-box ul li a{		//modificamos los links dentro de la lista
+    text-decoration: none; 	//los hypervinculos no se mostraran de la forma predefinida
+    color:black;     		//hypervinculos de color negro
+}
+
+.main-img{	//caja con la primera imagen de la pagina e unica distinta al resto
+    float: right; //movemos la imagen a la derecha
+    margin: auto;
+    right:0;
+    
+}
+
+.main-img img{
+    position:absolute; //una forma para que la imagen no colapse con el texto
+    right:10%;
+}
+
+.image{		//resto de propiedades de todas las imagenes
+    text-align: center; //el resto de imagenes iran centradas y al 80% de su tamaño
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.link{
+    text-decoration: none;	//los hypervinculos no se mostraran de la forma predefinida
+    color:blue;
+}
+
+.grey-text{
+    background-color: lightgrey; //formamos los unicos dos parrafos distintos del articulo
+    padding: 5px;
+    margin: 5px;
+    width: 90%;//el color de fonto se ajuste al tamaño del texto
+}
+
+.table-container{
+    background-color:lightgrey;
+    font-size: 0.9em;	//la letra de la tabla es mas pequeña
+    width:65%;	//el color de fondo y la caja se ajustan al tamaño de la tabla
+}
+
+.table-container thead tr{
+    background-color:grey;	//distinque la primera fila de la tabla
+    color:white;
+}
+
+.table tbody tr td{
+    border-bottom: 1px solid grey; //propiedad que define las lineas entre filas de la tabla
+    padding: 5px;
+}
+.footer{
+    border-top: 1px solid grey; //borde superior del footer de la pagina
+    padding: 5px;
+    margin-top: 30px;
+    color:grey;
+    font-size: 0.8em; //reduce el tamaño de la letra
+}
+

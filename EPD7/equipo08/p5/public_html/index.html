@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script type="text/javascript">
+        <!--
+            function randomValues(min,max,nvalues)
+            {
+                var i=0;
+                var values = [];
+                for(i=0;i<nvalues;i++)
+                {
+                    values.push(Math.random()*(max-min)+min); 
+                }
+                return values;
+            }
+            
+            function printTable(names,values) 
+            {
+                var i =0;
+                var result="<table>\n\
+                            <tr>\n\
+                                <th>Patient</th>\n\
+                                <th>Temperature (&ordm;C)</th>\n\
+                            </tr>";
+                for(i=0;i<names.length;i++)
+                {
+                    result+="<tr>\n\
+                                <td>"+names[i]+"</td>\n\
+                                <td>"+values[i].toFixed(2)+"</td>\n\
+                            </th>";
+                }
+                result+="</table>";
+                return result;
+            }
+            
+        //-->
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            <!--
+                var min=""; 
+                var max="";
+                var sucess=0;
+                var names= ["Oscar Gomez","German Alejo","Er manue","Andresito"];
+                while(sucess==0)
+                {
+                    min=prompt("Please enter the minimun temperature for the patients",""); 
+                    max=prompt("Please enter the maximun temperature for the patients","");
+                    if(!isNaN(min) && !isNaN(max) && min<max)
+                        sucess++;
+                }
+                var values = randomValues(parseFloat(min),parseFloat(max),names.length);
+                document.write(printTable(names,values));
+            
+        </script>
+    </body>
+</html>

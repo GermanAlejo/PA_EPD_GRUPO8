@@ -1,0 +1,96 @@
+
+
+
+.main-title{
+    font-weight: bold;
+}
+
+.main-content{
+    margin:10px;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.navigaton-box{
+    position:fixed;
+    right:0;
+    margin:10px;
+}
+
+.contenido-nav{
+    color:blue;
+}
+
+.navigaton-box ul{
+    list-style-type: none;
+    
+    padding-left: 3px;
+    border-left: 4px blue solid;
+}
+
+.navigaton-box ul li:first-of-type{
+    color:grey;
+    font-weight: bold;
+    
+}
+
+.navigaton-box ul li a{
+    text-decoration: none;
+    color:black;     
+}
+
+.main-img{
+    float: right;
+    margin: auto;
+    right:0;
+    
+}
+
+.main-img img{
+    position:absolute;
+
+    right:10%;
+}
+
+.image{
+    text-align: center;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.link{
+    text-decoration: none;
+    color:blue;
+}
+
+.grey-text{
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+}
+
+.table-container{
+    background-color:lightgrey;
+    font-size: 0.9em;
+    width:65%;
+}
+
+.table-container thead tr{
+    background-color:grey;
+    color:white;
+}
+
+.table tbody tr td{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+.footer{
+    border-top: 1px solid grey;
+    padding: 5px;
+    margin-top: 30px;
+    color:grey;
+    font-size: 0.8em;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>EPD07-P2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            
+            Array.prototype.contains = function (needle) {
+                for (i in this) {
+                    if (this[i] == needle)
+                        return true;
+                }
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>EPD07-P2</h1>
+        <script>
+            var input = prompt("Introduce a [0-9] number to look for", "");
+            var vec = [0, 2, 4, 7, 8];
+            if (vec.contains(input)) {
+                document.write("Array contains " + input);
+            } else {
+                document.write("Array does not contain " + input);
+            }
+        </script>
+    </body>
+</html>

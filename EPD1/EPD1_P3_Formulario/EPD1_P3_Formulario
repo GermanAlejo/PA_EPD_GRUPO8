@@ -1,0 +1,24 @@
+
+
+<form action="." method="get">
+                
+                Titulo: <input type="text" name="Titulo"> <br>
+                Autor: <input type="text" name="Autor"><br>
+                Editorial: <input type="text" name="Editorial"><br>
+                Fecha recojida: <input type="date" name="Fecha recogida">
+                Recha devolucion <input type="date" name="Fecha devolucion"><br>
+                Buscar: <input type="button" value="Buscar">
+            </form>
+
+
+
+
+
+Elance quieres saber mas
+https://es.wikipedia.org/wiki/Mitolog%C3%ADa_n%C3%B3rdica
+
+Videos informativos de un doctor en mitologia nordica
+https://www.youtube.com/channel/UCXCxNFxw6iq-Mh4uIjYvufg
+
+Pintor Finlandes inspirado en el kalevala
+https://es.wikipedia.org/wiki/Akseli_Gallen-Kallela

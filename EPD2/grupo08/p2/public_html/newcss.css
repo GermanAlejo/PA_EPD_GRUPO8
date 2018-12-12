@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-oct-2018, 17:56:08
+    Author     : Oscar
+    color:rgb(5,21,37);
+    color:rgba(0,0,0,0.87); color de google oscuro
+    list-style-image: lower-greek;
+    background: #000 url("gradient.gif") bottom left repeat-x;
+*/
+
+/*----------------------------Ajuestes previos (contenido media y tablas)----------------------------------*/
+.media{
+    width: 200px;
+    display:block;
+    text-align:center;
+    margin-top:10px ;
+    margin-bottom:10px ;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.logotipo{
+    top:0;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+table{ /*tambien vale .tablasHorarios*/
+    box-shadow: 5px 10px #888888;
+    border:1px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    color: #4c2882;
+}
+
+td, th{
+    color: #000;
+}
+
+ul li{
+    list-style-image: url("listas.jpg");
+    width: 5px;
+}
+
+ol li{
+    list-style: upper-roman;
+}
+
+/*-----------------------------------Body(dividido en partes: superior->cabeza, centro->cuerpo, fin->pie)-----------------------------------------*/
+body{
+    border-color: red;
+    background-color: white;
+    color:rgb(5,21,37);
+}
+
+.cabeza {
+    background-color:rgb(5,21,37);
+    text-align:center;    
+}
+
+.cabeza a{
+    color:white;
+}
+
+.cuerpo{
+    vertical-align: middle;
+}
+
+.pie{
+    color:white;
+    background-color: rgb(5,21,37);
+    width: 100%;
+    height: 72px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/*hay que controlar el tema de tamaños*/
+h1{
+    font-size: 2em;
+}
+
+p{
+    border-top-color: #CC0000;
+    border-right-color: blue;
+    border-bottom-color: #00FF00;
+    border-left-color: #CCC;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
