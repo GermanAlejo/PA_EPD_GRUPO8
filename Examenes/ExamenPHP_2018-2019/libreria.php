@@ -19,5 +19,8 @@ function dbConnection() {
     return $con;
 }
 
-
-
+function logOut() {
+    session_start();
+    session_destroy();
+    header("Location: loginForm.php");
+}
