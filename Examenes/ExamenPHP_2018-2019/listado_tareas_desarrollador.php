@@ -6,12 +6,26 @@
         <meta charset="UTF-8">
         <title>PA - Examen PHP (Diciembre, 2018)</title>
         <?php
+        include_once 'libreria.php';
+
         session_start();
-        
-        if(isset($_SESSION['nombre'])) {
-            $mensajeBien = "<h2>Bienvenido Usuario " . $_SESSION['nombre'] . "</h2>";
-        }else{
+
+        if (!isset($_SESSION['nombre'])) {
             header('location: loginForm.php');
+        } else {
+            if (isset($_SESSION['nombre'])) {
+                if ($_SESSION['tipo'] == 'jefe') {
+                    header('location: listado_tareas_jefe.html');
+                } else {
+                    $mensajeBien = "<h2>Bienvenido Usuario " . $_SESSION['nombre'] . "</h2>";
+                }
+            } else {
+                header('location: loginForm.php');
+            }
+        }
+
+        if (isset($_POST['btnLogout'])) {
+            logOut();
         }
         ?>
 

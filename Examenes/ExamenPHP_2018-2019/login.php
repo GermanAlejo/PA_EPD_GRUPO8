@@ -15,7 +15,7 @@ if (isset($_POST['btnLogin'])) {
             'usuario' => FILTER_SANITIZE_STRING,
             'password' => FILTER_SANITIZE_STRING
         );
-
+        
         $formInput = filter_input_array(INPUT_POST, $arraySanitize);
         $usuario = $formInput['usuario'];
         $password = $formInput['password'];
